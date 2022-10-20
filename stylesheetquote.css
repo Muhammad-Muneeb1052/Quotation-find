@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: black !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.quote_outer_wrapper{
+    width: 90%;
+    height: 50vh;
+    background-color: aquamarine !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    border: 10px solid rgb(238, 230, 220);
+    box-shadow: 10px 5px 115px lightslategrey;
+}
+.quote_outer_wrapper > h3{
+    width: 90%;
+    height: 230px;
+    font-family: 'Courier New', Courier, monospace;
+    /* border: 3px solid rgb(233, 188, 188); */
+    box-shadow: 15px 15px 15px rgb(91, 185, 216);
+ font-size: 3rem;
+ text-align: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 20px;
+}
+.quote_outer_wrapper > h2{
+ font-weight: bolder;
+}
+.button_quote{
+    width: 150px;
+    height: 50px;
+    background-color: brown;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: beige;
+}
+@media screen and (max-width: 680px) {
+    
+
+    body{
+        width: 100%;
+        height: 100vh;
+        
+    }
+    .quote_outer_wrapper{
+        width: 90%;
+        height: auto;
+   
+    }
+    .quote_outer_wrapper > h3{
+        width: 90%;
+        height: auto;
+        font-family: 'Courier New', Courier, monospace;
+        /* border: 3px solid rgb(233, 188, 188); */
+        box-shadow: 15px 15px 15px rgb(91, 185, 216);
+     font-size: 1.5rem;
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 20px;
+    }
+    .quote_outer_wrapper > h2{
+     font-weight: bolder;
+    }
+    .button_quote{
+        width: 150px;
+        height: 50px;
+        background-color: brown;
+        border: none;
+        border-radius: 10px;
+        font-size: 25px;
+        font-weight: bold;
+        color: beige;
+    }
+  }
